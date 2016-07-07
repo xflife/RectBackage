@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,
+input,label,textarea,p,blockquote,img,th,td{margin: 0;padding: 0;}
+img {border: none;float: none;}
+fieldset {border: 0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style: normal;font-weight: normal;}
+ol,ul {list-style: none;}
+dt,dd,li {position: relative;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 100%;}
+select,input {vertical-align: middle;padding: 1px 0;}
+label {cursor: pointer;}
+
+/* 清除浮动 */
+.clearfix {
+ display: block;
+ zoom: 1;
+}
+.clearfix:after {
+ content: " ";
+ display: block;
+ font-size: 0;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+/*单行文字溢出虚点显示*/
+.ell {
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ overflow: hidden;
+}
+/*去除边框虚线*/
+button , a {
+ outline: 0;
+}
+.fl{
+ float: left;
+}
+.fr{
+ float: right;
+}

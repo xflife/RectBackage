@@ -1,0 +1,274 @@
+body,html {
+ height: 100%;
+ font: normal '微软雅黑' 12px ;
+ overflow: hidden;
+}
+.bg-wrap{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+.header{
+ width: 100%;
+ min-height: 600px;
+ overflow: hidden;
+}
+.header .head-bg{
+ z-index:-1;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 79%;
+ _height:100%;
+}
+.header .head-bg img{
+ width: 100%;
+ height: 100%;
+}
+
+.container{
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ margin: -150px 0 0 -179px;
+ width: 357px;
+}
+.container h2{
+ margin: 0 auto;
+ width: 246px;
+ height: 37px;
+ color: #fff;
+ font-size: 32px;
+ font-weight: bold;
+ text-indent: 24px;
+}
+.container .tip{
+ position: absolute;
+ display: inline-block;
+ margin:14px auto 0;
+ text-align: center;
+ _margin-top:-23px;
+}
+.container .tip .tip-inner{
+ display: inline-block;
+ width: 232px;
+ height: 25px;
+ background-color: #FFF9F3;
+ border: 1px solid #F9CC9D;
+ border-radius: 3px;
+ font-size: 14px;
+ color: #E02C47;
+ line-height: 25px;
+}
+.container .cont{
+ margin: 0 auto;
+ padding:37px 61px 38px 62px;
+ width: 234px;
+ height: 278px;
+ background: url('../images/login-bg.png') center center no-repeat;
+}
+.login-style{
+ margin: 0px 0 15px 0;
+ padding-top:16px;
+ color: #fff;
+}
+.login-style span{
+ cursor: pointer;
+}
+.login-style a{
+ display: inline-block;
+ margin-right: 5px;
+ width: 12px;
+ height: 12px;
+ overflow: hidden;
+}
+.login-style a.selected{
+ background-position: 0 0;
+}
+.code-wrap .ver-code{
+ width: 107px;
+ float: left;
+}
+.code-wrap  img{
+ float: left;
+ display: block;
+ margin-left: 10px;
+ margin-top:5px;
+ width: 60px;
+ height: 25px;
+}
+.code-wrap .change{
+ float: left;
+ margin-left: 6px;
+ margin-top:9px;
+ color: #fff;
+ font-size: 12px;
+ text-decoration: underline;
+}
+
+/*======== input-wrap ==========*/
+.input-wrap{
+ margin:40px 0 20px 0;
+ overflow: hidden;
+ background: rgba(255,255,255,0.86);
+ border-radius: 5px;
+}
+.input-wrap-mar{
+ margin-top: 30px;
+}
+.input-wrap .r,
+.input-wrap .l,
+.input-wrap .c{
+ display: block;
+ height: 35px;
+ background-image:#fff;
+ vertical-align: top;
+}
+.input-wrap .r,
+.input-wrap .l{
+ margin-left: 5px;
+ width: 0px;
+ background-repeat: no-repeat;
+}
+.input-wrap .r{
+ float: right;
+ background-position: 0  -70px;
+ _margin-left:-3px;
+}
+.input-wrap .l{
+ float: left;
+ background-position: 0 0;
+ _margin-right:-3px;
+}
+.input-wrap .c{
+ margin:0 5px;
+ *margin:0;
+ padding: 0 6px 0 38px;
+ *padding-left:35px;
+ background-position: 0 -35px;
+ background-repeat: repeat-x;
+ overflow: hidden;
+}
+.input-wrap .c .text{
+ padding: 8px 0 8px 0;
+ *padding: 6px 0 8px 0;
+ width: 100%;
+ border: 0;
+ background: none;
+ font: normal 14px 'Tahoma';
+ color: #333;
+ line-height: 18px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ outline: none;
+}
+
+/*=========== icon =============*/
+.icon{
+ position: absolute;
+ margin:8px 0 0 8px;
+ width: 27px;
+ height: 19px;
+ background-image: url('../images/icon-login.png');
+ background-repeat: no-repeat;
+ overflow: hidden;
+}
+.icon-name{
+ background-position: 0 0;
+}
+.icon-pwd{
+ background-position: 0 -19px;
+}
+.icon-code{
+ background-position: 0 -38px;
+}
+
+/*=========== btn-wrap ==========*/
+.btn-wrap{
+ display: inline-block;
+ margin: 10px 0 0px -4px;
+ width: 242px;
+ cursor: pointer;
+}
+.btn-wrap .r,
+.btn-wrap .l,
+.btn-wrap .c{
+ display: block;
+ height: 45px;
+ background: #79B458;
+ border-radius: 5px;
+ vertical-align: top;
+}
+.btn-wrap .r,
+.btn-wrap .l{
+ width: 0px;
+ background-repeat: no-repeat;
+}
+.btn-wrap .r{
+ float: right;
+ background-position: 0 -90px;
+ _margin-left:-3px;
+}
+.btn-wrap .l{
+ float: left;
+ background-position: 0 0;
+ _margin-right:-3px;
+}
+.btn-wrap .c{
+ margin:0 5px;
+ *margin:0;
+ background-position: 0 -45px;
+ text-align: center;
+ overflow: hidden;
+}
+.btn-wrap.hover .r,
+.btn-wrap:hover .r{
+ background-position: 0 -225px;
+}
+.btn-wrap.hover .l,
+.btn-wrap:hover .l{
+ background-position: 0 -135px;
+}
+.btn-wrap.hover .c,
+.btn-wrap:hover .c{
+ background: #76C549;
+ background-position: 0 -180px;
+}
+.btn-wrap .c .txt{
+ display: inline-block;
+ margin-top: 11px;
+ width: 60px;
+ height: 17px;
+ font-size: 22px;
+ color: #fff;
+ font-family: 微软雅黑;
+ /*background:url(../img/gmp/login-font.png) 0 0 no-repeat;*/
+ vertical-align: top;
+}
+
+/*----------- footer ------------*/
+.footer{
+ position: absolute;
+ bottom: 0;
+ height: 21%;
+ width: 100%;
+ text-align: center;
+ font-size: 12px;
+ color: #bcbcbc;
+ line-height: 30px;
+}
+.footer img{
+ width: 100%;
+ height: 100%;
+}
+.footer p{
+ position: absolute;
+ top: 48px;
+ left: 50%;
+ margin-left: -56px;
+ font-size: 14px;
+}

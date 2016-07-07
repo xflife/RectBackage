@@ -1,5 +1,5 @@
 /**
- * 文件说明:
+ * 文件说明: 登录
  * 详细描述:
  * 创建者: 陳明峰
  * 创建时间: 16/4/29
@@ -9,7 +9,7 @@
 import '../library/index'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import Demo from './components/Demo.jsx'
+import Login from './components/Login.jsx'
 import ConfigureStore from '../redux/utils/configureStore'
 
 const store = ConfigureStore(undefined, window.__INITIALSTATE__)
@@ -17,6 +17,6 @@ const rootElement = document.getElementById('app')
 
 ReactDOM.render(
     <Provider store={store}>
-      <Demo />
+      <Login />
     </Provider>
-    , rootElement)
+, rootElement)
