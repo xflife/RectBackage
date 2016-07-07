@@ -20,7 +20,6 @@ class Login extends Component {
   }
 
   loginFun(){
-    debugger
     //账号登录 简单数据验证
       if(!this.refs.userName.value){
         this.setState({

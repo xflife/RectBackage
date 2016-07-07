@@ -13,11 +13,11 @@
  * 变更记录:
  */
 import { combineReducers } from 'redux'
-import { demoStore } from './demoReducers'
+import { loginStore } from './loginReducers.js'
 
 
 const rootReducer = combineReducers({
-  demoStore
+  loginStore
 });
 
 export default rootReducer

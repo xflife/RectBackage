@@ -8,7 +8,7 @@
 
 import * as ActionsType from '../utils/ActionsType'
 
-export function demoStore( state = null, action) {
+export function loginStore( state = null, action) {
   switch (action.type) {
     case ActionsType.GET_BOOK_LIST:
       return action.store
