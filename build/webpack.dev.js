@@ -81,11 +81,10 @@ var config = {
         }
       }, {
         test: /\.css$/,
-        //loader: 'style!css'
-        loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+        loader: 'style!css!postcss'
       }, {
         test: /\.less$/,
-        loader: ExtractTextPlugin.extract("style-loader", "css-loader?!less-loader")
+        loader: 'style!css!postcss!less?outputStyle=expanded&sourceMap'
       }, {
         test: /\.(png|jpg|gif)$/,
         loader: 'url-loader?limit=8192'
